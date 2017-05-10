@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
+
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
@@ -14,4 +17,7 @@ for (i = 0; i < array_length_1d(menuItem); i++) {
 }
 
 draw_text(200,200, string(menuPos));
+draw_text(200,230, string(inst));
+draw_text(200,260, string(x));
+draw_text(200,290, string(y));
 

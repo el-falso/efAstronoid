@@ -8,6 +8,8 @@ enum menuItems {
 
 menuPos = 0;
 
+inst = 0;
+
 menuItem[0] = "Start Game";
 menuItem[1] = "Options";
 menuItem[2] = "Quit";
